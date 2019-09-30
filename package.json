@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html",
-    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://techsiv.github.io/my-resume",
+  "homepage": "https://techsiv.github.io/my-resume/",
   "author": "",
   "license": "ISC",
   "dependencies": {
